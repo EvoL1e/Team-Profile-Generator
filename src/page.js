@@ -1,7 +1,9 @@
+const { Module } = require("module");
+
  // Create a function to generate the html file
-function generateHTML() {
+function initialHTML() {
     
-    return (
+  return (
   `
 <!DOCTYPE html>
 <html lang="en">
@@ -14,9 +16,9 @@ function generateHTML() {
   </head>
 
   <body>
-    <section>
+    <section id= "Team">
 
-        <article>
+        <article id = "">
             <p> ${name} </p>
             <p> ${jobTitle}
             <p> ${id} </p>
@@ -29,4 +31,52 @@ function generateHTML() {
   </body>
 </html>
   `);
-  }
+}
+
+function managerHTML(data) {
+  return (`
+        <article id = "Manager">
+            <p> ${data.name} </p>
+            <p> ${data.role}
+            <p> ${data.id} </p>
+            <p> ${data.email} </p>
+            <p> ${data.officeNum} <p>
+        </article>
+  `);
+
+}
+
+function engineerHTML(data) {
+  return (`
+        <article id = "Engineer">
+            <H2> ${data.name} </H2>
+            <H3> ${data.role} </H3>
+            <p> ${data.id} </p>
+            <p> ${data.email} </p>
+            <p> ${data.github} <p>
+        </article>
+  `);
+}
+
+function internHTML(data) {
+  return (`
+        <article id = "Intern">
+            <p> ${data.name} </p>
+            <p> ${data.role}
+            <p> ${data.id} </p>
+            <p> ${data.email} </p>
+            <p> ${data.school} <p>
+        </article>
+  `);
+}
+
+function closingHTML() {
+  return(`
+    </section>
+
+  </body>
+</html>
+    `)
+}
+
+export { initialHTML, managerHTML, engineerHTML, internHTML, closingHTML };
