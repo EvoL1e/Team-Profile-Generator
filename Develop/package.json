@@ -1,0 +1,15 @@
+{
+  "name": "Team Profile Generator",
+  "version": "1.0.0",
+  "description": "A script that asks questions on the command line and generates an html with the info of each team member",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Abraam Ibrahim",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}

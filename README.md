@@ -53,7 +53,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Questions
 
-    If you have any questions or concerns feel free to contact me through either my email or GitHub page
+If you have any questions or concerns feel free to contact me through either my email or GitHub page
     
-        Email: abraam31658@gmail.com
-        GitHub: https://github.com/EvoL1e
+Email: abraam31658@gmail.com
+GitHub: https://github.com/EvoL1e
