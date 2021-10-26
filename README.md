@@ -2,7 +2,7 @@
 
 ## Description
 
-I was tasked with making a generator that could make 
+I was tasked with making a generator that would ask someone about their team. It would ask for info about the manager, engineer, and intern. It would ask for their name, id, email, github (for engineers), office number(for managers), and school(for interns). It would take the info into a constructor that will then append that info into the generator that will then create the html file for the user.
 
 ## Table of Contents
 
@@ -21,11 +21,11 @@ I was tasked with making a generator that could make
     2. Clone the repository by going to the green code button
     3. Open up GitBash (Windows) or Terminal (MacOs) and write down git clone (SSH key link from the green code button)
     4. Once cloned go to wherever your cloned files are set up
-    5. Open the file with your IDE of choice and start coding or if you want to try it within your local system ensure that you have node installed (you can do this by typing in the console node --v), move to the develop folder, install the required files by doing npm i, and then doing npm start.
+    5. Open the file with your IDE of choice and start coding or if you want to try it within your local system ensure that you have node installed (you can do this by typing in the console node --v), move to the develop folder, install the required files by doing npm i, and then doing node index.js
 
 ## Usage
 
-If you would like to use this script as of right now you would have to follow the installation guide to download it to your local machine. From there you would have to open up a terminal and go to where the files are. From there change to the Develop folder specifically and use npm start or node index.js to start the script. The script will start up by asking you a few questions that will be used to fill out the README file. After answering them all a professional looking README file should appear in front of you!
+If you would like to use this script as of right now you would have to follow the installation guide to download it to your local machine. From there you would have to open up a terminal and write node index.js.
 
 * Images and video of the functionality of this script
 
