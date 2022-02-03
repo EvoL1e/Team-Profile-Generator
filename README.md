@@ -25,15 +25,9 @@ I was tasked with making a generator that would ask someone about their team. It
 
 ## Usage
 
-If you would like to use this script as of right now you would have to follow the installation guide to download it to your local machine. From there you would have to open up a terminal and write node index.js.
+If you would like to use this all you have to do is follow the installation guide and do node index.js. Follow the video and then open up the html file to see the changes.
 
-* Images and video of the functionality of this script
-
-    ![A](Assets/q.PNG)
-
-    ![A ](Assets/r.PNG)
-
-    A link to a video showcasing the usage of the script: https://youtu.be/
+    A link to a video showcasing the usage of the script: https://youtu.be/e7PbXzHhj14
 
 ## Credits
 
